@@ -1,0 +1,8 @@
+import sys
+import math
+
+if __name__ == "__main__":
+    input = sys.stdin.readline
+    a, b = map(int,input().split())
+    print(math.gcd(a,b))
+    print(math.lcm(a,b))
