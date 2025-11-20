@@ -10,4 +10,4 @@ if __name__ == "__main__":
     hash = 0
     for i, n in enumerate(num_list):
         hash += n * (31**i)
-    print(hash)
+    print(hash % 1234567891)
